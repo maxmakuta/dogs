@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Overlay iFrame payment form</title>
+</head>
+
+
+<body>
+
+<div id="reactcontainer"></div>
+
+<script>
+	
+function demoTemplate(data, varOne, varTwo){
+	console.log(data[0] + varOne + data[1] + varTwo);
+	// console.log(varOne);
+	// console.log(varTwo);
+};
+
+let type = "es6 Template";
+let exclamation = "WhoHooo";
+
+demoTemplate`Hello from ${type} string, ${exclamation}`;
+
+</script>
+
+</body>
+</html>
+
